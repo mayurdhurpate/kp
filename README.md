@@ -1,3 +1,2 @@
-# Knowledge Portal
-Knowledge Portal of IIT(BHU), Varanasi.
-Knowledge Portal IIT(BHU) for sharing videos, slides and other Institute related information for educational purposes,
+# Knowledge Portal | IIT(BHU), Varanasi  
+Knowledge Portal is a website for sharing videos, slides and other Institute related information for educational purpose.
