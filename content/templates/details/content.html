@@ -1,0 +1,22 @@
+{% load staticfiles %} 
+<!--A sample page with images, forms, static i-->
+
+
+<!doctype html>
+<html ng-app="todoApp">
+  <head>
+    <title>KP|Content</title>
+    <script src="/static/angular.min.js"></script>
+    <script src="{% static "todo.js" %}" ></script>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/todo.css">
+  </head>
+  <body>
+    <h2>Content Page</h2>
+    
+    <img src="{% static "images/home/a.jpg" %}" alt="My image"/>
+
+  </body>
+</html>
+
+
