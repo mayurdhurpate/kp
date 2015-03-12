@@ -1,0 +1,56 @@
+
+div.tiles {
+	box-shadow: 3px 3px 3px #e6e6e6;
+	height: 50px;
+	margin-top: 20px;
+}
+
+/*div.tiles:hover{
+	box-shadow: 5px 5px 5px #c3c3c3;
+}*/
+
+.footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-bolder {
+	font-weight: bolder;
+}
+
+.center {
+	text-align: center;
+}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.tiles:hover {
+    -webkit-animation: myfirst 1s; /* Chrome, Safari, Opera */
+    animation: myfirst 1s;
+}
+
+@-webkit-keyframes myfirst {
+    from {
+    	box-shadow: 5px 5px 5px #c3c3c3;
+    }
+    to {
+    	box-shadow: 5px 5px 5px #e6e6e6;
+    }
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+	from {
+    	box-shadow: 5px 5px 5px #c3c3c3;
+    }
+    to {
+    	box-shadow: 5px 5px 5px #e6e6e6;
+    }
+}
