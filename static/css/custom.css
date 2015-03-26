@@ -9,9 +9,25 @@ div.tiles {
 	box-shadow: 5px 5px 5px #c3c3c3;
 }*/
 
+
 .footer {
 	margin-top: 20px;
 	text-align: center;
+    border-top: 4px solid #c90;
+    /*background: #900;*/
+    background: #101010;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_logo {
+width: 64px;
+top: 0px;
+margin-left: 50px;
+position: relative;
+padding: 10px;
 }
 
 .text-bold {
