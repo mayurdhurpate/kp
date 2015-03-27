@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Index 2</title>
+    <title>{{ content.title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/static/bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="/">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -66,9 +66,9 @@
       <div class="main">
         
         <div class="container row">
-          <div class="form-control" style="height: 200px; border-radius: 15px;">Abstract goes here...</div>
+          <div class="form-control" style="height: 200px; border-radius: 15px;">{{ content.abstract }}</div>
           <hr />
-          <div class="row container-fluid">Materials / details shared.</div>
+          <div class="row container-fluid">{{ content.links }}</div>
           <br />
         </div>
 
