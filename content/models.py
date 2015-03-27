@@ -19,7 +19,8 @@ class Content(models.Model):
     image = models.FileField(null=True, blank=True)
     category = models.ManyToManyField(Category)
     links = models.TextField(null=True, blank=True)
-
+    article_id = models.CharField(max_length=200)
+    
     def __unicode__(self):
         return self.title
 
