@@ -69,7 +69,10 @@
         <div class="container row">
         <hr />
         <form action="" method="POST" class="form">
-          <textarea class="form-control" placeholder="Abstract here..." rows="7"></textarea>
+          {% csrf_token %}
+          <input name="title" type="text" class="form-control" placeholder="Title here..." rows="7"></input>
+          <textarea name="abstract" class="form-control" placeholder="Abstract here..." rows="7"></textarea>
+          <input name="links" type="text" class="form-control" placeholder="Links here..." rows="7"></input>
           <hr />
           <div class="col-md-4 form-group">
             <label for="video">Video</label>
